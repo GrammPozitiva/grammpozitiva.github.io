@@ -1,0 +1,64 @@
+body {
+  font-size: 2em;
+}
+
+#wrap {
+  width: 100%;
+}
+
+.block_number {
+  display: flex;
+  justify-content: center;
+}
+
+.block_number>* {
+  margin-left: 10px;
+}
+
+.block_number>input {
+  width: 35px;
+}
+
+.answer {
+  display: none;
+}
+
+.osi {
+  margin-top: 150px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 47%;
+}
+
+.start {
+  margin-left: 35px;
+  border-top: 1px solid red;
+  height: 86px;
+  position: absolute;
+  bottom: 30px;
+  border-radius: 50%;
+}
+
+.end {
+  border-top: 1px solid red;
+  width: 160px;
+  height: 86px;
+  position: absolute;
+  bottom: 30px;
+  border-radius: 50%;
+  display: none;
+}
+
+.osi div>input {
+  width: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.41);
+  border-radius: 11%;
+}
+
+.pos {
+  position: absolute;
+  left: -13px;
+  bottom: 100px;
+  margin-left: 50%;
+}
